@@ -39,18 +39,18 @@ function Sidebar(props) {
     >
       <div className="logo">
         <a
-          href= {require("assets/img/logo_chifa.png")}
+          href= {require("assets/img/logo.png")}
           className="simple-text logo-mini"
         >
           <div className="logo-img">
-            <img src={require("assets/img/logo_chifa.png")} alt="react-logo" />
+            <img src={require("assets/img/logo.png")} alt="react-logo" />
           </div>
         </a>
         <a
-          href= {require("assets/img/logo_chifa.png")}
+          href= {require("assets/img/logo.png")}
           className="simple-text logo-normal"
         >
-          CHIFAA
+          ALFALAH
         </a>
       </div>
       <div className="sidebar-wrapper" ref={sidebar}>
