@@ -15,7 +15,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 const pass=localStorage.getItem("user_stock_data")
 
 root.render(
-  <BrowserRouter basename={"pharmacie"}>
+  <BrowserRouter basename={"alfalah_pharma_front"}>
     <Switch>
       <Route path="/admin" render={(props) => <AdminLayout {...props} />} />
       <Route path="/login" component={Login} />
