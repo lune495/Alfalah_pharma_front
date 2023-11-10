@@ -128,12 +128,7 @@ export default class BusinessProvider extends React.Component {
 	};
 
 
-	getTopClient = async () => {
-		const { data } = await getData("api/top_meilleur_client");
-		this.setState({ top_clients:data, });
-	    console.log("top client",data)
 	
-	};
 	getTopProduit = async () => {
 		const { data } = await getData("api/top_produit_vendu");
 		this.setState({top_ventes:data });
@@ -210,7 +205,6 @@ export default class BusinessProvider extends React.Component {
 			await (
 			this.getUsers(),
 			this.getClients(),
-			this.getTopClient(),
 			this.getTopProduit(),
 			// this.getListeApro(),
 			this.getRoles(),
