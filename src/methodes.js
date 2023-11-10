@@ -9,7 +9,7 @@ const apiUrl = "http://45.63.94.164/alfalah_pharma_back";
 // const apiUrl = "http://144.202.100.33";
 const baseUrl = ""
 const webUrl = ""
-const pass=localStorage.getItem("user_stock_data") 
+const pass=localStorage.getItem("user_alfalah_data") 
 
 export const getBaseUrl = () => { 
 	return baseUrl;

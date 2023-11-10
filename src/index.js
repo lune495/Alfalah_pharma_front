@@ -12,7 +12,7 @@ import AdminLayout from "layouts/Admin.js";
 import Login from "views/Login/Login";
 import '@fortawesome/fontawesome-free/css/all.min.css'; 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-const pass=localStorage.getItem("user_stock_data")
+const pass=localStorage.getItem("user_alfalah_data")
 
 root.render(
   <BrowserRouter basename={"alfalah_pharma_front"}>

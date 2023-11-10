@@ -21,7 +21,7 @@ export default function Login(props) {
 		setLoading(true);
 		await sendData("api/login", form)
 			.then(({data}) => {
-				localStorage.setItem("user_stock_data", JSON.stringify(data))
+				localStorage.setItem("user_alfalah_data", JSON.stringify(data))
 				// window.location.reload(false);
 				setShow(true)
 				console.log("login response",data)
